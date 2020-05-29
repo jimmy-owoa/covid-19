@@ -1,7 +1,10 @@
 # covid-19
 
-> My super-excellent Nuxt.js project
+> Just a Nuxt.js project
 
+# API
+  Getting info from https://github.com/javieraviles/covidAPI
+  
 ## Build Setup
 
 ```bash
