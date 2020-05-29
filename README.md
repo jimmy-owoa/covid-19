@@ -2,8 +2,8 @@
 
 > Just a Nuxt.js project
 
-# Build Setup
-  Getting info from this API: https://github.com/javieraviles/covidAPI
+# API
+  Getting info from https://github.com/javieraviles/covidAPI
   
 ## Build Setup
 
