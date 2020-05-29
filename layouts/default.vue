@@ -33,9 +33,6 @@
       </v-list>
     </v-navigation-drawer>
     <v-footer :fixed="fixed" app>
-      <v-flex text-md-left>
-        <span>&copy; {{ new Date().getFullYear() }}</span>
-      </v-flex>
       <v-flex text-md-center>
         Made with &hearts; by
         <a
@@ -44,14 +41,10 @@
           style="text-decoration: none;"
           class="white--text font-weight-bold"
         >Jeremías Gutiérrez</a>
-      </v-flex>
-      <v-flex text-md-right>
-        <a
-          href="https://github.com/javieraviles/covidAPI"
+        | <a href="https://github.com/jimmy-owoa/covid-19"
           target="_blank"
-          class="white--text"
           style="text-decoration: none;"
-        >API</a>
+          class="white--text font-weight-bold">Github</a>
       </v-flex>
     </v-footer>
   </v-app>
