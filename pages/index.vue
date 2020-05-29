@@ -5,13 +5,13 @@
         <v-combobox
           v-model="item"
           :items="countries"
-          label="Paises"
+          label="Seleccione un país a consultar"
           :loading="loading"
           @change="getDataCountry()"
         ></v-combobox>
       </v-col>
-      <v-col v-if="results">
-        <div class="headline text-md-center">País {{results.country}}</div>
+      <v-col v-if="results" cols="12" sm="12">
+        <div class="headline text-md-center">{{results.country}}</div>
         <v-simple-table>
           <template v-slot:default>
             <tbody>

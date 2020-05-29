@@ -33,7 +33,26 @@
       </v-list>
     </v-navigation-drawer>
     <v-footer :fixed="fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <v-flex text-md-left>
+        <span>&copy; {{ new Date().getFullYear() }}</span>
+      </v-flex>
+      <v-flex text-md-center>
+        Made with &hearts; by
+        <a
+          href="https://www.linkedin.com/in/jeremias-gutierrez-araya-490235101"
+          target="_blank"
+          style="text-decoration: none;"
+          class="white--text font-weight-bold"
+        >Jeremías Gutiérrez</a>
+      </v-flex>
+      <v-flex text-md-right>
+        <a
+          href="https://github.com/javieraviles/covidAPI"
+          target="_blank"
+          class="white--text"
+          style="text-decoration: none;"
+        >API</a>
+      </v-flex>
     </v-footer>
   </v-app>
 </template>
@@ -50,11 +69,6 @@ export default {
           icon: "mdi-virus-outline",
           title: "Inicio",
           to: "/"
-        },
-        {
-          icon: "mdi-magnify",
-          title: "buscador",
-          to: "/buscador"
         }
       ],
       miniVariant: false,
